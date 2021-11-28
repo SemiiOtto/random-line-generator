@@ -1,0 +1,52 @@
+//random lines
+
+var x;
+var y;
+var R;
+var G;
+var B;
+var S;
+var RO;
+var T;
+
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+x= (35);
+y= (45);
+  R=(85);
+  G=(47);
+  B=(96);
+  S=(10);
+  RO=(10);
+  T=(5)
+   background(222,55,150);
+}
+
+function draw() {
+ 
+  
+  
+ // rect(x,y,RO,S,T)
+  fill(R,G,B)
+  
+  line(x,y,y,S)
+  stroke(0,250,60)
+  //curve(46,50,90,65)
+  //triangle(300,10,614,260)
+  
+  
+ x=random(0,560)
+  y=random(0,999)
+  R=random(0,255);
+  G=random(0,255);
+  B=random(70,90);
+  S=random(0,388);
+  RO=random(0,98);
+  T=random(0,600);
+  
+}
+
+//Links
+// Fullscreen: https://editor.p5js.org/SemiiOtto/full/jISE5zbB2
+//code and editor: https://editor.p5js.org/SemiiOtto/sketches/jISE5zbB2
